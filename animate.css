@@ -1,5 +1,11 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     height: 100%;
+    background-color: aquamarine;
+
 }
 
 .container {
@@ -9,19 +15,47 @@ body {
     height: 100%;
 }
 
+.side-div1 {
+    background-color: pink;
+    border: 5px solid rgb(0, 68, 216);
+    padding: 3px;
+    position: absolute;
+    height: 150px;
+    width: 150px;
+    top: 175px;
+    left: 25%;
+    z-index: 3;
+}
+
+.side-div2 {
+    background-color: pink;
+    border: 5px solid rgb(0, 68, 216);
+    padding: 3px;
+    position: absolute;
+    height: 150px;
+    width: 150px;
+    top: 175px;
+    right: 25%;
+    z-index: 3;
+}
+
 #hello-div {
     background-color: aqua;
+    border: 2px solid black;
     color: black;
     position: relative;
-    animation: slidedown 5s infinite;
+    animation: slidedown 10s infinite;
 
 }
 
 @keyframes slidedown {
-    from {
+    0% {
         top: 0px;
     }
-    to {
-        top: 200px;
+    50% {
+        transform: rotate(0.5turn);
+    }
+    100% {
+        top: 500px;
     }
 }
