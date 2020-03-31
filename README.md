@@ -1,1 +1,3 @@
 Project to practice CSS animation and transitions - let creativity commence...
+
+Build using html5, CSS3 and javascript.
