@@ -41,6 +41,18 @@ body {
     animation: spin 10s infinite;
 }
 
+.inner-div1 {
+    background-color: black;
+    border: 5px solid blue;
+    border-radius: 50%;
+}
+
+.inner-div2 {
+    background-color: black;
+    border: 5px solid blue;
+    border-radius: 50%;
+}
+
 #hello-div {
     background-color: aqua;
     border: 2px solid black;
